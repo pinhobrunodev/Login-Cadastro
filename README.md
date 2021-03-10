@@ -4,12 +4,12 @@
 
 ### TECNOLOGIAS ENVOLVIDAS:
 
-    JAVA
-    HTML
-    CSS
-    JS
-    MYSQL
-    JDBC
+   JAVA
+   HTML
+   CSS
+   JS
+   MYSQL
+   JDBC
 
 
 

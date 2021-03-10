@@ -37,7 +37,7 @@ public class Db {
 		}
 	}
 	
-	public void closeConnection(Statement st) {
+	public void closeStatement(Statement st) {
 		if(st != null) {
 			try {
 				st.close();

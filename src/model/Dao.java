@@ -32,9 +32,7 @@ public class Dao {
 		try {
 			Connection con = db.getConnection();
 			PreparedStatement ps = con
-					/*
-					 * select * from users where USUARIO = + usuario
-					 */
+					
 					.prepareStatement("select * from users where USUARIO = '" + usuario + "' and SENHA = '" + senha + "'");
 			ResultSet rs = ps.executeQuery();
 			if (rs.next()) {

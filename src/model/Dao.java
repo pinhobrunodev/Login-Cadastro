@@ -21,7 +21,7 @@ public class Dao {
 			ps.setString(3, jb.getSENHA());
 			ps.setString(4, jb.getEMAIL());
 			ps.executeUpdate();
-			db.closeConnection(ps);
+			db.closeStatement(ps);
 			db.closeConnection(con);
 		} catch (SQLException e) {
 			throw new DbException(e.getMessage());

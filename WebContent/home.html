@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<title>Login Page</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' type='text/css' media='screen' href='home.css'>
+</head>
+
+<body>
+
+	<div id='container'>
+		<img src='images/log-in.png' alt='loginimage' width=100px>
+
+
+		<form action="login" method="POST" name="formLogin">
+			<br>
+			<h1>Usuário</h1>
+			<input class="inputdados" type="text"
+				placeholder="Digite o seu usuário..." required name="usuarioLogin">
+			<h1>Senha</h1>
+			<input class="inputdados" type="password"
+				placeholder="Digite a sua senha..." required name="senhaLogin">
+			<br> <br> <br> <input class="botao1" type="submit"
+				value="Entrar" onclick="validarLogin()">
+		</form>
+		<script src="scripts/validarCampoLogin.js"></script>
+		<br>
+
+
+		<button class="botao2">
+			<a href="cadastro.html">Cadastrar</a>
+		</button>
+
+
+	</div>
+
+
+
+</body>
+
+</html>

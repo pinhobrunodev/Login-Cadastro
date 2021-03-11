@@ -48,10 +48,13 @@ body{
     cursor: pointer;
 }
 
-
-
-
-
+input {
+    outline: none;
+ 
+}
+.botao2{
+	outline: none
+}
 
 
 

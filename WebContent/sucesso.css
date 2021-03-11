@@ -38,3 +38,6 @@ a:visited {
 	border: 1px;
 	cursor: pointer;
 }
+.botao2{
+	outline: none
+}

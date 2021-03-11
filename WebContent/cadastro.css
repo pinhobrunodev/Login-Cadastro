@@ -37,6 +37,11 @@ input {
 	border-color:  rgba(15, 114, 207, 0.849)
 }
 
+input {
+    outline: none;
+ 
+}
+
 #botao {
 	margin-top: 30px;
 	width: 210px;
